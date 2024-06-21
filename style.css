@@ -1,0 +1,171 @@
+/* fuentes inicio------------------------------------------------------- */
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NL:wght@100..400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+NL:wght@100..400&display=swap');
+/* fuentes fin */
+*{
+    font-family: "Anton", sans-serif;
+}
+/* cabecera inicio------------------------------------------------------- */
+#cabecera{
+    text-align: center;
+      
+}
+
+.margin{
+    margin-left:  2px;
+    margin-right: 10px;
+
+}
+
+.inicio{
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  background-color: rgb(176,201,251);
+  color: black;
+  border: 1px solid rgb(176,201,251);
+  border-radius: 4px;
+
+}
+.inicio:hover{
+  background-color: #ddd;
+  transition: all 0.1s ease-in-out;}  
+/* cabecera fin ------------------------------------------------------- */
+
+/* cuerpo inicio -------------------------------------------------------*/
+body{
+    background-color: rgba(255, 255, 255, 0.597);
+    margin: 0;
+}
+.margen{
+/* border: 2px solid;  */
+ margin: 0% 10% 0% 10%;
+
+ 
+}
+/* cuerpo fin   */
+
+/* pantalla principal inicio -------------------------------------------------------*/
+.Danilo h2{
+   font-size: 40px;
+}
+.Danilo h1{
+  font-size: 100px;
+
+}
+
+#imagen1{
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+     
+
+}
+/* pantalla principal fin------------------------------------------------------- */
+
+/* acerca de mi inicio------------------------------------------------------- */
+.degradado-top{
+  
+    background-image: linear-gradient(to top,rgb(176,201,251),white);
+    background-position: center top, center bottom;
+    background-repeat: no-repeat; 
+    height: 250px;
+    padding: 80px 0px;
+    position: relative;
+    z-index: 1;
+    font-size: 80%;
+    /* border: 1px solid red; */
+}
+.fondo-acercademi{
+    
+    
+    background-image: linear-gradient(to bottom,rgb(176,201,251),white);
+    background-position: center top, center bottom;
+    background-repeat: no-repeat;
+    height: 250px;
+    text-align: justify;
+    padding: 80px 0px;
+    position: relative;
+    z-index: 1;
+    font-size: 80%;
+    /* border: 1px solid red; */
+}
+.fondo-acercademi h3{
+    text-align: center;
+    font-size: 40px;  
+
+}
+.fondo-acercademi p{
+  text-align: center;
+  font-size: 25px;  
+
+}.fondo-acercademi div{
+  /* border: 2px solid red; */
+  margin-top: -250px;
+}
+/* acerca de mi fin------------------------------------------------------- */
+
+/* habilidadesi inicio------------------------------------------------------------ */
+.hab{
+  margin-left: 10%;
+  /* padding: 150px; */
+  font-size: 25px;
+  text-align: center;
+
+}
+
+#borde-habilidades{
+  list-style: none;
+  padding: 0;
+  /* margin-top: -20%; */
+  /* position: relative; */
+    z-index: 3;
+    border: 1px solid red;
+
+
+}
+ #borde-habilidades ul li {
+  display: inline-block;
+  padding: 5px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10ox;
+
+ }
+/* habilidades fin------------------------------------------------------------------ */
+
+
+ 
+
+    #sociales {
+        list-style: none;
+        padding: 0;
+        margin-top: 10px;
+      }
+      
+      #sociales li {
+        list-style: none;
+        display: inline-block;
+        padding: 5px;
+        
+      }
+      
+      .fa {
+        color: #333;
+        text-decoration: none;
+        margin-left: 0px;
+        
+      }
+      
+      footer {
+        background-color:rgb(176,201,251);
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        background-image: linear-gradient(to top,rgb(176,201,251),white);
+      }
+   #Contacto{
+   margin-top: -1%;
+   color: #333;
+   }

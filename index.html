@@ -2,44 +2,64 @@
 
 <html>
     <head lang="es-ES">
-       <title>Mi portfolio</title> 
+       <title>Mi portfolio</title>
+       <link rel="stylesheet" href="style.css"> 
+       <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/brands.min.css">
+      
+        <script src="script.js" defer></script>
     </head>
     <body>
-       <nav> 
-            <ul>
-                <li><a href="#Acerca_de_mi">Acerca de mí</a></li>
-                <li><a href="#Habilidades">Habilidades</a></li>
-                <li><a href="#Experiencia">Experiencia</a></li>
-                <li><a href="#Proyectos">Proyectos</a></li>
-                <li><a href="#Contacto">Contacto</a></li>
-            </ul>
-        </nav>
-       
-        <main>
-            <header>
+      <header id="cabecera">
+            <nav> 
+                <ul>
+                    <a href="#Acerca_de_mi" class="margin inicio">Acerca de mí</a>
+                    <a href="#Habilidades" class="margin inicio">Habilidades</a>
+                    <a href="#Experiencia" class="margin inicio">Experiencia</a>
+                    <a href="#Proyectos" class="margin inicio">Proyectos</a>
+                    <a href="#Contacto" class="margin inicio">Contacto</a>
+                </ul>
+            </nav>
+                <button id="accion">Acción</button>
+           <section class="Danilo">
             <h1>Danilo Báez</h1>
             <h2>Programador Web</h2>
-            </header> 
-       
-            <section id="Acerca_de_mi"><h3>Acerca de mí</h3>
+           </section> 
+        </header> 
+
+        <main>
+            <img id="imagen1" src="./img/20945894.jpg" alt="imagen1"> 
+           
+            <section class="degradado-top"></section>
+            <section  class="fondo-acercademi ">
+                <div class="margen">
+                    <h3 id="Acerca_de_mi">Acerca de mí</h3>
              <p>Soy un apasionado programador web con experiencia en el diseño y desarrolo de sitios web atractivos y funcionales. Me especializo en crear soluciones personalizadas y eficientes que ayudan a las empresas y emprendedores a tener presencia en línea y alcanzar sus objetivos.</p>
+                </div>
+                
        
             </section>
         
-             <section id="Habilidades"><h3>Habilidades</h3>
-            <p>
-                 <ul>
-                     <li>HTML</li>
-                     <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
-                    <li>Git</li>
-                    <li>GitHub</li>
-                </ul>
-            </p>
+             <section id="borde-habilidades" class="hab" >
+                <h3 id="Habilidades">Habilidades</h3>
+                <p>
+                     <ul>
+                        <li><i class="fa fa-brands fa-html5 fa-2x"></i><p>HTML</p></li>
+                        <li><i class="fa fa-brands fa-css3-alt fa-2x"></i><p>CSS</p></li>
+                        <li><i class="fa fa-brands fa-js fa-2x"></i><p>JavaScript</p></li>
+                        <li><i class="fa fa-brands fa-bootstrap fa-2x"></i><p>Bootstrap</p></li>
+                        <li><i class="fa fa-brands fa-git-alt fa-2x"></i><p>Git</p></li>
+                        <li><i class="fa fa-brands fa-github fa-2x"></i><p>GitHub</p></li>
+                    </ul>
+                </p>
             </section>
+
+        </section>
         
-            <section id="Experiencia">
+        
+        
+            <section id="Experiencia" class="margen">
                 <h3>Experiencias</h3>
                 <h4>Babies Ajuar (2020-presente)</h4>
                 <ul>
@@ -49,7 +69,7 @@
             </section>
         
         
-            <section id="Proyectos">
+            <section id="Proyectos" class="margen">
                 <h3>Proyectos</h3>
                 <h4>Página web Babies Ajuar</h4>
                 <ul>
@@ -60,21 +80,27 @@
 
             </section>
 
-                
-            <section id="Contacto">
-                <h3>Contacto</h3>
-                <ul>
-                    <li><a target="_blank" href="https://api.whatsapp.com/send?phone=595985264665">Whatsapp</a></li>
-                    <li><a target="_blank" href="https://www.instagram.com/danilobaez10/">Instagram</a></li>
-                    <li><a target="_blank" href="mailto:danibaezgonz@gmail.com">Email</a></li>   
-                </ul>
-
-            </section>
-       
-            
+             
         </main>
 
-        <footer></footer>
+        <footer>
+            <section  class="margen">
+                
+                <!-- <ul id="sociales">
+                    <li><a target="_blank" href="https://api.whatsapp.com/send?phone=595985264665" class="fa fa-whatsapp"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/danilobaez10/" class="fa fa-instagram"></a></li>
+                    <li><a target="_blank" href="mailto:danibaezgonz@gmail.com" class="fa fa-regular fa-envelope" ></a></li>   
+                </ul> -->
+                <ul id="sociales">
+                    <li><a target="_blank" href="https://api.whatsapp.com/send?phone=595985264665" class="fa fa-whatsapp fa-2x"></a></li>
+                    <li><a target="_blank" href="https://www.instagram.com/danilobaez10/" class="fa fa-instagram fa-2x"></a></li>
+                    <li><a target="_blank" href="mailto:danibaezgonz@gmail.com" class="fa fa-regular fa-envelope fa-2x"></a></li>   
+                  </ul>
+                
+
+            </section>
+            <h3 id="Contacto">Contacto</h3>
+        </footer>
     </body>                         
 
 </html>
