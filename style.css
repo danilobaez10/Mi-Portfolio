@@ -109,7 +109,7 @@ body{
 /* habilidadesi inicio------------------------------------------------------------ */
 .hab{
   /* margin-left: 10%; */
-  /* padding: 150px; */
+  padding: 150px;
   font-size: 25px;
   text-align: center;
 
@@ -118,20 +118,22 @@ body{
 #borde-habilidades{
   list-style: none;
   padding: 0;
-  background-color: #fefefe;
-  /* margin-top: -20%; */
-  /* position: relative; */
-    z-index: 3;
-    /* border: 1px solid red; */
-    margin-left: 10%;
-    margin-right: 10%;
-    box-shadow: 
-    20px 10px 10px;
+  /* background-color: #fefefe; */
+  margin-top: -10%;
+  position: relative;
+  z-index: 3;
+  /* border: 1px solid red; */
+  margin-left: 10%;
+  margin-right: 10%;
   
-    
 
 
+ 
 }
+.separacion {
+  /* padding: 10%; */
+}
+
  #borde-habilidades ul li {
   display: inline-block;
   padding: 10px;
@@ -139,6 +141,19 @@ body{
   border-radius: 5px;
   margin-right: 10ox;
 
+
+
+ }
+ .borde-proyecto{
+  /* border: 1px solid red; */
+  width: 700px;
+  text-align: justify;
+
+}
+.imgproyect{
+  width: 700px; 
+  box-shadow: 10px 10px 50px rgb(176,201,251) ;
+  margin-top: 20px;
  }
 /* habilidades fin------------------------------------------------------------------ */
 
@@ -188,3 +203,16 @@ li p{
         margin-left: 0px;
 }
    */
+   .contenedor{
+    position:relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .contenido{
+    position: absolute;
+   }
+   
+
+  
